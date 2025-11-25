@@ -9,3 +9,7 @@
 2： Cargo.toml 相当于 VS工程的工程文件，用来管理配置这个工程的。
 
 3: 运行: cargo run --release
+
+4: crates.io 是 Rust 的官方公共包注册中心.
+
+5： #[cfg(not(target_arch = "wasm32"))] 是 条件编译属性，告诉编译器：「只在非 WASM 架构时才编译下面的代码」。
